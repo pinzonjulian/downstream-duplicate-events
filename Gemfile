@@ -73,3 +73,4 @@ end
 
 gem 'connect_by', path: 'components/connect_by'
 gem 'chat_by', path: 'components/chat_by'
+gem "downstream", github: "pinzonjulian/downstream", branch: "using-rails-7"
