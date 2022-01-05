@@ -1,3 +1,9 @@
+PATH
+  remote: components/connect_by
+  specs:
+    connect_by (0.1.0)
+      rails (>= 7.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +196,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  connect_by!
   debug
   importmap-rails
   jbuilder
