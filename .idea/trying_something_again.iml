@@ -26,6 +26,8 @@
       <excludeFolder url="file://$MODULE_DIR$/public/system" />
       <excludeFolder url="file://$MODULE_DIR$/components" />
     </content>
+    <content url="file://$MODULE_DIR$/components/chat_by" />
+    <content url="file://$MODULE_DIR$/components/connect_by" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

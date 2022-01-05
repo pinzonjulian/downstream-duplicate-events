@@ -3,16 +3,16 @@ require "application_system_test_case"
 module ChatBy
   class MessagesTest < ApplicationSystemTestCase
     setup do
-      @message = chat_by_messages(:one)
+      @message = Message.new(content: "MyString")
     end
 
     test "visiting the index" do
-      visit messages_url
+      visit chat_by.messages_url
       assert_selector "h1", text: "Messages"
     end
 
     test "should create message" do
-      visit messages_url
+      visit chat_by.messages_url
       click_on "New message"
 
       fill_in "Content", with: @message.content

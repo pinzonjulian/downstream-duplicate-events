@@ -5,7 +5,7 @@ module ChatBy
     include Engine.routes.url_helpers
 
     setup do
-      @message = chat_by_messages(:one)
+      @message = Message.new(content: "MyString")
     end
 
     test "should get index" do
